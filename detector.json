@@ -1,0 +1,84 @@
+{
+  "name": "V00048A",
+  "type": "icpc",
+  "production": {
+    "manufacturer": "Mirion",
+    "order": 0,
+    "crystal": "048",
+    "slice": "A",
+    "enrichment": 0.88,
+    "passivation": true,
+    "reprocessing": false,
+    "mass_in_g": 1918.9,
+    "impcc": {
+      "array": {
+        "value_in_1e9e/cm3": [15, 10],
+        "dist_from_contact_in_mm": [0.0, 81]
+      },
+      "function_pars": {
+        "z0_in_1e10e/cm3": 0,
+        "gradient_in_1e10e/cm4": 0,
+        "quadratic_in_1e10e/cm5": 0
+      }
+    },
+    "delivered": "2018-03-01"
+  },
+  "geometry": {
+    "height_in_mm": 80.0,
+    "radius_in_mm": 37.0,
+    "borehole": {
+      "radius_in_mm": 5.0,
+      "depth_in_mm": 52.0
+    },
+    "groove": {
+      "depth_in_mm": 2.0,
+      "radius_in_mm": {
+        "outer": 13,
+        "inner": 10.0
+      }
+    },
+    "pp_contact": {
+      "radius_in_mm": 10.0,
+      "depth_in_mm": 0.0
+    },
+    "taper": {
+      "top": {
+        "angle_in_deg": 0,
+        "height_in_mm": 0
+      },
+      "bottom": {
+        "angle_in_deg": 0,
+        "height_in_mm": 0
+      },
+      "borehole": {
+        "angle_in_deg": 0,
+        "height_in_mm": 0
+      }
+    }
+  },
+  "characterization": {
+    "manufacturer": {
+      "depletion_voltage_in_V": 3500.0,
+      "recommended_voltage_in_V": 4000.0,
+      "fwhm_co57fep_in_keV": 0.76,
+      "fwhm_co60fep_in_keV": 1.76,
+      "dl_thickness_in_mm": null
+    },
+    "l200_site": {
+      "daq": "struck3301",
+      "depletion_voltage_in_V": 2900.0,
+      "recommended_voltage_in_V": 3400.0,
+      "fwhm_in_keV": {
+        "co60fep": 1.69,
+        "tl208fep": 2.42,
+        "qbb": 2.08
+      },
+      "survival_fraction": {
+        "tl208dep": 0.9,
+        "qbb": 0.34,
+        "tl208sep": 0.056,
+        "tl208fep": 0.064
+      }
+    }
+  }
+}
